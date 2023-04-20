@@ -1,3 +1,7 @@
+* {
+  background-color: rgb(112, 218, 138);
+  margin: 0;
+}
 .mainText {
   text-align: right;
 }
@@ -63,4 +67,28 @@ content: '❄';
 }
 .point4 {
     color: blue;
+}
+
+.nav {
+  background-color: #333;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.nav a {
+   float: left;
+   background-color: inherit;
+   color: #f2f2f2;
+   text-align: center;
+   text-decoration: none;
+   padding: 15px 15px;
+   font-size: 20px;
+}
+
+.nav a:hover {
+   background-color: #ddd;
+   color: black;
+}
+.nav a.active {
+   background-color: #04AA6D;
+   color: white;
 }
