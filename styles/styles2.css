@@ -99,3 +99,20 @@ hr {
     background-color: #04AA6D;
     color: white;
   }
+
+  /* Additional */
+
+  .addTable {
+    margin: 20px;
+    border-collapse: collapse;
+    width: 50%;
+    table-layout: fixed;
+}
+
+.addTable tr, td {
+    border: 2px solid black;
+}
+
+.tables {
+    display: flex;
+}
