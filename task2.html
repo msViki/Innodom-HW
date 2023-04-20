@@ -1,26 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/styles2.css" />
+    <link rel="stylesheet" href="./styles/styles2.css">
     <title>Viktoriya</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-<nav>
-    <div class="nav">
-        <a href="index.html">Task 1</a>
-        <a class="active" href="task2.html">Task 2</a>
-    </div>
-</nav>
+      <nav>
+        <div class="nav" id="nav">
+          <a href="index.html">Task 1</a>
+          <a class="active" href="task2.html">Task 2</a>
+        </div>
+      </nav>
     </header>
+
     <main>
+      <h1 class="title">Youeido Han River Park</h1>
+      <h3 class="titleKor">여의도 한강공원</h3>
+      <div class="hanRiverMedia">
+        <img
+          class="hanRiver"
+          src="assests/HanRiver.jpg"
+          alt="Han River"
+          title="Han River Park"
+        >
+        <div class="hanRiverMedia2">
+          <video
+            class="hanRiverVideo"
+            src="assests/hanRiverVideo.mp4"
+            controls
+            autoplay
+            muted
+            loop
+          ></video>
+          <iframe
+            class="hanRiverMap"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25310.426822100413!2d126.90531907726766!3d37.536132565192155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9f3b03c4b7ef%3A0xa4d8869ebf8d452c!2sYeouido%20Hangang%20Park!5e0!3m2!1sru!2sru!4v1681991924292!5m2!1sru!2sru"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+      <hr>
 
+      <table class="table">
+        <thead>
+          <tr>
+            <th colspan="4">Заголовок</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="2" rowspan="5" class="tableBG">Текст</td>
+            <td colspan="2">Текст1</td>
+          </tr>
+          <tr>
+            <td colspan="2" >Текст2</td>
+          </tr>
+          <tr>
+            <td rowspan="3">привет</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>3</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="button">
+        <a href="#nav" class="link">Navigation</a>
+      </div>
     </main>
-    <footer>
-
-    </footer>
-</body>
+    <footer></footer>
+  </body>
 </html>
