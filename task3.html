@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles3.css">
+    <link rel="stylesheet" href="./styles/styles3-drop.css">
+    <title>Viktoriya</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav" id="nav">
+          <a href="index.html">Task 1</a>
+          <a href="task2.html">Task 2</a>
+          <a class="active" href="task3.html">Task 3</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <form>
+        <div class="form">
+          <label class="label">
+            Name
+            <input type="text" required class="input" placeholder="John" minlength="2"/>
+          </label>
+          <label class="label">
+            Last&nbsp;name
+            <input type="text" required class="input" placeholder="Smith" maxlength="20"/>
+          </label>
+          <label class="label">
+            Email
+            <input
+              type="email"
+              required
+              class="input"
+              placeholder="Inno@dom.com"
+            />
+          </label>
+          <label class="label">
+            Phone
+            <input
+              type="tel"
+              required
+              class="input"
+              placeholder="377-000-564"
+            />
+          </label>
+          <label class="label">
+            Password
+            <input
+              type="password"
+              required
+              class="input"
+              placeholder="Create your password"
+            />
+          </label>
+
+          <fieldset class="genderFieldset">
+            <legend class="gender">Gender</legend>
+            <label class="label">
+              Male
+              <input type="radio" name="gender" required class="input radio" />
+            </label>
+            <label class="label">
+              Female
+              <input type="radio" name="gender" required class="input radio" />
+            </label>
+          </fieldset>
+          <label class="label">
+            Birthplace
+            <select class="birthSelect">
+              <option hidden selected class="birthTitleOption">--Choose one option--</option>
+              <option class="birthOption">InnoDom</option>
+              <option class="birthOption">Wrong answer</option>
+              <option class="birthOption">Wrong answer</option>
+            </select>
+          </label>
+          <label class="drop-container">
+            <span class="drop-title">Drop your profile image here</span>
+            or
+            <input type="file" class="file" accept="image/*" required>
+          </label>
+          <label class="label lableRange">
+            Passion about InnoDom
+            <input type="range" required class="input range" />
+          </label>
+          <label class="label">
+            Agree to terms and conditions
+            <input type="checkbox" required class="checkbox" />
+          </label>
+          <div class="formButtons">
+            <button type="submit" class="formButton submit">Submit</button>
+            <button type="reset" class="formButton reset">Reset</button>
+          </div>
+        </div>
+      </form>
+
+      <div class="button">
+        <a href="#nav" class="link">Navigation</a>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
