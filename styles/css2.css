@@ -1,4 +1,4 @@
-* {
+body {
     background-color: rgb(112, 218, 138);
     margin: 0;
     font-family: math;
@@ -67,11 +67,11 @@
     width: 300px;
     list-style: '✿';
 }
-
-.html {
+.html:first-child {
+    filter: drop-shadow(6px 5px 0px pink);
     color: blue;
-    text-shadow: 6px 5px 0px pink;
 }
+
 .css {
     background-color: blue;
     color: white;
