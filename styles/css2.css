@@ -57,7 +57,7 @@
 }
 .list {
     font-size: 30px;
-    margin: 10px auto 30px;
+    margin: 10px auto;
     width: 300px;
    list-style-image: url("../assets/list.png");
 }
