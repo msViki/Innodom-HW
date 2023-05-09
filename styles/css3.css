@@ -73,5 +73,6 @@ body {
   .panda {
     float: right;
     height: 200px;
-    margin: 20px;
+    shape-outside: rectangle(270px 200px);
+    /* margin: 20px; */
   }
